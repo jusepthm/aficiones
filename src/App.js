@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+const App = () => {
+  const reyesGodos=[
+    {
+      nombre: "Ataúlfo",
+      aficion: "comer toros sin pelar",
+    },{
+      nombre: "Recesvinto",
+      aficion: "leer a Hegel en arameo",
+    },{
+      nombre: "Teodorico",
+      aficion: "la cría del escarabajo en almíbar"
+    }
+  ]
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    {/* Esto es un comentario dentro del return*/}
+    {/* Crear un <div> y un <button> */}     
+    </>
+  )
 }
-
 export default App;
